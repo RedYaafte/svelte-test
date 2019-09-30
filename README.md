@@ -67,3 +67,33 @@ Then, from within your project folder:
 npm run build
 surge public
 ```
+
+## Json server
+
+Install JSON Server
+
+```npm install -g json-server```
+
+Create a ```db.json``` file with some data:
+
+```
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hello world",
+      "body": "Lorem Ipsum is simply dummy text",
+      "author": "Josep"
+    }
+  ]
+}
+```
+
+Start JSON Server
+
+```
+json-server --watch db.json --port 3004
+```
+
+Ref:
+https://github.com/typicode/json-server
