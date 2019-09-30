@@ -21,6 +21,9 @@
 	h1 {
 		color: purple;
 	}
+  nav {
+    padding: 20px;
+    background-color: lightgray;
+  }
 </style>
 
-<!-- <h1>Hello {name}!</h1> -->
